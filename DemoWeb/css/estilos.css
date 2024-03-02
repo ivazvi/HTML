@@ -1,0 +1,124 @@
+header{
+background-color: rgb(0, 0, 0);
+padding: 10px;
+margin: 0px;
+color: whitesmoke;
+border-radius: 4px;
+}
+
+header img{
+    width: 80px;
+    vertical-align: middle;
+    margin-right: 12px;
+
+}
+
+header nav{
+    margin-top: 10px;
+    font-size:16px ;
+    
+}
+
+h1{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+
+    
+}
+
+body{
+
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+
+}
+
+article{
+    background-color: #def;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    
+
+}
+
+h2{
+    font-size: 16px;
+}
+
+article img{
+
+    width: 100%;
+    max-width: 350px;
+
+}
+
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px 15px;
+
+}
+
+footer a{
+
+    color: blanchedalmond;
+    font-size: 14px;
+}
+
+
+@media(min-with: 640px){
+ #maincontent{
+    display: flex;
+    float: left; /* Para que el contenido principal se posicione a la izquierda */
+    width: 70%; /* Ajusta el ancho según tus necesidades */
+ }
+ main{
+    margin-right: 20px;
+ }
+
+aside{
+    float: right; /* Para que el aside se posicione a la derecha */
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin-top: 10px;
+
+
+ }
+}
+
+@media (min-with: 770px){
+    article img{
+        float: right;
+        width: 33%;
+        margin: -20px 20px 10px 80px;
+    }
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background-image: url('../images/2024-01-29.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    padding: 10px 20px;
+    background-color: #def;
+    box-shadow: 2px 2px 10px #666;
+    border-radius: 24px;
+  }
